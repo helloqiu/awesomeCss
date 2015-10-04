@@ -2,13 +2,12 @@ body{
 	font-family:sans-serif;
 }
 .main-container{
-	
+	position:relative;
 }
 .title-container{
-	z-index: 0;
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
+	z-index: 1;
+	left: 37%;
+	position:absolute;
 	width: 300px;
 	height: 300px;
 	-moz-border-radius: 150px; 
